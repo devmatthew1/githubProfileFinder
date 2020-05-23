@@ -8,14 +8,15 @@ searchUser.addEventListener('keyup',function(e) {
 		//http call
 		github.getUser(userText)
 		.then(function(data){
-			if (data.profile.message === 'Not found'){
-
+			if (data.profile.message === 'Not Found'){
+				
+				ui.showAlert('user not found','alert alert-danger');
 			} else {
 				ui.showProfile(data.profile);
 			}
 		})
 
 	}else{
-
+		ui.clearProfile();
 	}
 })
