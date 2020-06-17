@@ -1,4 +1,4 @@
-# githubProfileFinder
+# GITHUB PROFILE FINDER
 The application makes use of GITHUB API to find github users
 # HOW TO RUN THE APPLICATION
 1. Clone or download the repo
